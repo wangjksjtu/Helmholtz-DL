@@ -43,6 +43,9 @@ cd cifar
 sh scripts/train-all-cnns.sh
 ```
 
+### Architecures
+To evaluate our idea, we have designed six different architectures on CIFAR-10 and Audio dataset, respectively. The details of models (architectures, number of parameters) could be obtained from [cifar_paras](https://github.com/wangjksjtu/Helmholtz-DL/tree/master/cifar/parameters) and [audio_paras](https://github.com/wangjksjtu/Helmholtz-DL/tree/master/audio/model/parameters). 
+
 ### Citation
 If you find our work useful in your research, please consider citing:
 
