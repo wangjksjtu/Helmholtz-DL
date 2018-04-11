@@ -2,7 +2,7 @@
 
 from __future__ import print_function
 import numpy as np
-from panotti.datautils import *
+from models.datautils import *
 import librosa
 from audioread import NoBackendError
 import os
