@@ -1,6 +1,8 @@
 ## The Helmholtz Method: *Using Perceptual Compression to Reduce ML Complexity*
 
-![Helmholtz Reinterpretation](https://github.com/wangjksjtu/Helmholtz-DL/blob/master/docs/Reinterpretation.pdf)
+Created by [Gerald Friedland](http://www.gerald-friedland.org), Jingkang Wang, [Ruoxi Jia](https://ruoxijia.github.io/), [Bo Li](http://bli89.web.engr.illinois.edu/) and [Dawn Song](https://people.eecs.berkeley.edu/~dawnsong/).
+
+![Helmholtz Reinterpretation](https://github.com/wangjksjtu/Helmholtz-DL/blob/master/docs/Helmholtz.png)
 
 ### Introduction
 This work is based on our [arXiv tech report](https://arxiv.org/abs/). We proposed a fundamental answer to a frequently asked question in multimedia computing and machine learning: Do artifacts from perceptual compression contribute to error in the machine learning process and if so, how much?. You can also check our [project webpage](http://berkeley.edu/helmholtz-dl) for a deeper introduction.
@@ -22,23 +24,31 @@ In this repository, we release code and data for conducting perceptual compressi
 The code has been tested with Python 2.7, Tensorflow 1.4.0, CUDA 8.0 and cuDNN 5.1 on Ubuntu 14.04. But it may work on more machines (directly or through mini-modification), pull-requests or test report are well welcomed.
 
 ### Usage
-To train a model to classify images in CIFAR-10
-  
-    cd cifar
-    python train.py
-
-Log files and network parameters will be saved to `log` folder in default. 
+To train a model to classify images in CIFAR-10 (quality 5, architecure A)
+```
+cd cifar
+python train.py --quality 5 --setting 0
+```
+Log files and network parameters will be saved to `logs` folder in default.
 
 To see HELP for the training script:
+```
+cd cifar && python train.py -h (CIFAR-10)
+cd audio && python train.py -h (Audio)
+```
 
-    python train.py -h
+If enough GPUs are available, you could use scripts to train models with different settings (architecture, compression ratio). Remember to manually specify proper GPUs in the script (Each process occupies around 3500M graphic memory).
+```
+cd cifar
+sh scripts/train-all-cnns.sh
+```
 
 ### Citation
 If you find our work useful in your research, please consider citing:
 
-	@article{helmholtz,
+	@article{helmholtz18,
 	  title={The Helmholtz Method: Using Perceptual Compression to Reduce Machine Learning Complexity},
-	  author={},
+	  author={Gerald Friedland and Jingkang Wang and Ruoxi Jia and Bo Li and Dawn Song},
 	  journal={arXiv preprint arXiv:1804.xxxxx},
 	  year={2018}
 	}
