@@ -2,7 +2,7 @@
 
 Created by [Gerald Friedland](http://www.gerald-friedland.org), Jingkang Wang, [Ruoxi Jia](https://ruoxijia.github.io/), [Bo Li](http://bli89.web.engr.illinois.edu/) and [Dawn Song](https://people.eecs.berkeley.edu/~dawnsong/).
 
-![Helmholtz Reinterpretation](https://github.com/wangjksjtu/Helmholtz-DL/blob/master/docs/Helmholtz.png)
+![Helmholtz Reinterpretation](https://raw.githubusercontent.com/wangjksjtu/Helmholtz-DL/master/docs/Helmholtz.png?token=AVJKPwd6oKZC6TGHb1WjxEP2SmhXv4nbks5a2E9NwA%3D%3D)
 
 ### Introduction
 This work is based on our [arXiv tech report](https://arxiv.org/abs/). We proposed a fundamental answer to a frequently asked question in multimedia computing and machine learning: Do artifacts from perceptual compression contribute to error in the machine learning process and if so, how much?. You can also check our [project webpage](http://berkeley.edu/helmholtz-dl) for a deeper introduction.
