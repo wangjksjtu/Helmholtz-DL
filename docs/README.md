@@ -1,17 +1,19 @@
 ## The Helmholtz Method: *Using Perceptual Compression to Reduce Machine Learning Complexity*
 
-Created by [Gerald Friedland](http://www.gerald-friedland.org), Jingkang Wang, [Ruoxi Jia](https://ruoxijia.github.io/), [Bo Li](http://bli89.web.engr.illinois.edu/) and [Dawn Song](https://people.eecs.berkeley.edu/~dawnsong/).
+Created by [Gerald Friedland](http://www.gerald-friedland.org), [Jingkang Wang](http://wangjk.me), [Ruoxi Jia](https://ruoxijia.github.io/), [Bo Li](http://bli89.web.engr.illinois.edu/) and [Dawn Song](https://people.eecs.berkeley.edu/~dawnsong/).
 
 ![Helmholtz Reinterpretation](https://raw.githubusercontent.com/wangjksjtu/Helmholtz-DL/master/docs/Helmholtz.png?token=AVJKPwd6oKZC6TGHb1WjxEP2SmhXv4nbks5a2E9NwA%3D%3D)
 
 ### Introduction
 This work is based on our [arXiv tech report](https://arxiv.org/abs/). We propose a fundamental answer to a frequently asked question in multimedia computing and machine learning: __Do artifacts from perceptual compression contribute to error in the machine learning process and if so, how much?__
 
+Just like electricity doesn't originate from the power outlet, pixels don't randomly appear in an image file. Cameras are physical sensors that follow the laws of thermodynamics. Knowing this makes it easier to understand the properties of pixels as we train machine learners to recognize patterns in images.
+
 Our approach to the problem is a __reinterpretation of the Helmholtz Free Energy formula from physics to explain the relationship between content and noise when using sensors (such as cameras or microphones) to capture multimedia data__. The reinterpretation allows a bit-measurement of the noise contained in images, audio, and video by combining a classifier with perceptual compression, such as JPEG or MP3.
 
 Extensive experiments show that, __at the right quality level, perceptual compression is actually not harmful but contributes to a significant reduction of complexity of the machine learning process__. Our work provides insights into the reasons for the success of deep learning.
 
-In this repository, we release code and data for conducting perceptual compression while maintaining, or sometimes even improving, overall performance. Additionally, compressed models usually result in faster convergent speed.
+In this repository, we release code and data for conducting perceptual compression while maintaining, or sometimes even improving, overall performance. Additionally, compressed models usually result in faster training convergence.
 
 ### Requirements
 
