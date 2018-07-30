@@ -5,7 +5,7 @@ Created by [Gerald Friedland](http://www.gerald-friedland.org), [Jingkang Wang](
 ![Helmholtz Reinterpretation](https://github.com/wangjksjtu/Helmholtz-DL/blob/master/docs/Helmholtz.png)
 
 ### Introduction
-This work is based on our [arXiv tech report](https://arxiv.org/abs/). We propose a fundamental answer to a frequently asked question in multimedia computing and machine learning: Do artifacts from perceptual compression contribute to error in the machine learning process and if so, how much? You can also check our [project webpage](http://wangjk.me/Helmholtz-DL/) and [slide](http://hyperion.usc.edu/UQ-SciML-2018/Friedland.pdf) for a deeper introduction.
+This work is based on our [arXiv tech report](http://arxiv.org/abs/1807.10569). We propose a fundamental answer to a frequently asked question in multimedia computing and machine learning: Do artifacts from perceptual compression contribute to error in the machine learning process and if so, how much? You can also check our [project webpage](http://wangjk.me/Helmholtz-DL/) and [slide](http://hyperion.usc.edu/UQ-SciML-2018/Friedland.pdf) for a deeper introduction.
 
 Just like electricity doesn't originate from the power outlet, pixels don't randomly appear in an image file. Cameras are physical sensors that follow the laws of thermodynamics. Knowing this makes it easier to understand the properties of pixels as we train machine learners to recognize patterns in images.
 
@@ -54,7 +54,7 @@ If you find our work useful in your research, please consider citing:
 	@article{helmholtz18,
 	  title={The Helmholtz Method: Using Perceptual Compression to Reduce Machine Learning Complexity},
 	  author={Gerald Friedland and Jingkang Wang and Ruoxi Jia and Bo Li and Dawn Song},
-	  journal={arXiv preprint arXiv:1804.xxxxx},
+	  journal={arXiv preprint arXiv:1807.10569},
 	  year={2018}
 	}
 
