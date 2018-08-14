@@ -19,7 +19,7 @@ In this repository, we release code and data for conducting perceptual compressi
 * **Keras 2.1.5**
 * Python 2.7
 * CUDA 8.0+ (For GPU)
-* Python Libraries: numpy pandas, h5py, pillow, imageio, librosa and librosa
+* Python Libraries: numpy pandas, h5py, pillow, imageio, librosa
 * [lame](http://lame.sourceforge.net/) tool (for MP3 compression)
 
 The code has been tested with Python 2.7, Tensorflow 1.4.0, CUDA 8.0 and cuDNN 5.1 on Ubuntu 14.04. But it may work on more machines (directly or through mini-modification), pull-requests or test report are well welcomed.
