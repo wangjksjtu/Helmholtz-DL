@@ -1,6 +1,6 @@
 ## On the Impact of Perceptual Compression on Deep Learning
 
-Created by [Gerald Friedland](http://www.gerald-friedland.org), [Ruoxi Jia](https://ruoxijia.github.io/), [Jingkang Wang](http://wangjk.me), [Bo Li](http://bli89.web.engr.illinois.edu/) and [Nathan Mundhenk](http://www.mundhenk.com/).
+Created by [Gerald Friedland](http://www.gerald-friedland.org), [Ruoxi Jia](https://ruoxijia.github.io/), [Jingkang Wang](http://www.cs.toronto.edu/~wangjk/), [Bo Li](http://bli89.web.engr.illinois.edu/) and [Nathan Mundhenk](http://www.mundhenk.com/).
 
 ![Helmholtz Reinterpretation](https://github.com/wangjksjtu/Helmholtz-DL/blob/master/docs/Helmholtz.png)
 
