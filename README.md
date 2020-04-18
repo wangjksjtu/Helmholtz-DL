@@ -1,11 +1,11 @@
-## The Helmholtz Method: *Using Perceptual Compression to Reduce ML Complexity*
+## On the Impact of Perceptual Compression on Deep Learning
 
-Created by [Gerald Friedland](http://www.gerald-friedland.org), [Jingkang Wang](http://wangjk.me), [Ruoxi Jia](https://ruoxijia.github.io/), [Bo Li](http://bli89.web.engr.illinois.edu/) and [Dawn Song](https://people.eecs.berkeley.edu/~dawnsong/).
+Created by [Gerald Friedland](http://www.gerald-friedland.org), [Ruoxi Jia](https://ruoxijia.github.io/), [Jingkang Wang](http://wangjk.me), [Bo Li](http://bli89.web.engr.illinois.edu/) and [Nathan Mundhenk](http://www.mundhenk.com/).
 
 ![Helmholtz Reinterpretation](https://github.com/wangjksjtu/Helmholtz-DL/blob/master/docs/Helmholtz.png)
 
 ### Introduction
-This work is based on our [arXiv tech report](http://arxiv.org/abs/1807.10569). We propose a fundamental answer to a frequently asked question in multimedia computing and machine learning: Do artifacts from perceptual compression contribute to error in the machine learning process and if so, how much? You can also check our [project webpage](http://wangjk.me/Helmholtz-DL/) and [slide](http://hyperion.usc.edu/UQ-SciML-2018/Friedland.pdf) for a deeper introduction.
+This work is based on our [arXiv tech report](http://arxiv.org/abs/1807.10569). An enhanced version is accepted as the full paper at [MIPR 2020](http://www.ieee-mipr.org/). We propose a fundamental answer to a frequently asked question in multimedia computing and machine learning: Do artifacts from perceptual compression contribute to error in the machine learning process and if so, how much? You can also check our [project webpage](http://wangjk.me/Helmholtz-DL/) and [slide](http://hyperion.usc.edu/UQ-SciML-2018/Friedland.pdf) for a deeper introduction.
 
 Just like electricity doesn't originate from the power outlet, pixels don't randomly appear in an image file. Cameras are physical sensors that follow the laws of thermodynamics. Knowing this makes it easier to understand the properties of pixels as we train machine learners to recognize patterns in images.
 
@@ -51,11 +51,11 @@ To evaluate our idea, we have designed six different architectures on CIFAR-10 a
 ### Citation
 If you find our work useful in your research, please consider citing:
 
-	@article{helmholtz18,
-	  title={The Helmholtz Method: Using Perceptual Compression to Reduce Machine Learning Complexity},
-	  author={Gerald Friedland and Jingkang Wang and Ruoxi Jia and Bo Li and Dawn Song},
-	  journal={arXiv preprint arXiv:1807.10569},
-	  year={2018}
+	@article{gerald20compress,
+	  title={On the Impact of Perceptual Compression on Deep Learning},
+	  author={Gerald Friedland and Ruoxi Jia and Jingkang Wang and Bo Li and Nathan Mundhenk},
+	  journal={MIPR},
+	  year={2020}
 	}
 
 ### Acknowledgements
